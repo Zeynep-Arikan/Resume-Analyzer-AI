@@ -1,0 +1,3 @@
+cohere
+chromadb
+python-dotenv

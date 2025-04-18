@@ -1,0 +1,29 @@
+John Smith  
+Email: johnsmith.dev@example.com  
+LinkedIn: linkedin.com/in/johnsmithdev  
+
+Summary:  
+Frontend developer with 2+ years of experience building responsive web applications using React, TypeScript, and Tailwind CSS. Passionate about creating user-friendly interfaces and optimizing performance.  
+
+Skills:  
+- JavaScript, TypeScript, React, Next.js  
+- HTML5, CSS3, Tailwind CSS, Sass  
+- REST APIs, Axios  
+- Git, GitHub, Agile methodologies  
+
+Experience:  
+Frontend Developer – BrightCode Solutions (2022 - Present)  
+- Developed and maintained multiple client-facing web apps with React.  
+- Collaborated with backend team to integrate APIs and improve load times by 35%.  
+- Implemented unit testing with Jest and React Testing Library.  
+
+Intern Frontend Developer – WebNova Agency (2021 - 2022)  
+- Created mobile-first landing pages using HTML, CSS, and JavaScript.  
+- Gained experience with version control and code review practices.  
+
+Education:  
+B.Sc. in Computer Engineering – XYZ University (2017 - 2021)  
+
+Certificates:  
+- Meta Front-End Developer Certificate (Coursera, 2023)  
+- JavaScript Algorithms and Data Structures (freeCodeCamp)
