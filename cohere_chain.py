@@ -1,7 +1,7 @@
 import cohere
 import os
 import re
-from vector_store import retrieve_similar_cvs
+# from vector_store import retrieve_similar_cvs
 from langchain.prompts import PromptTemplate
 
 # Cohere istemcisi başlatılıyor
