@@ -2,6 +2,12 @@
 
 AI-powered resume analysis app that helps you match your CV to your target job role, identify missing skills, and get personalized improvement suggestions.
 
+- Resume parsing is handled using LangChain’s PyPDFLoader module to extract clean, structured text from PDF documents.
+- Prompt construction is done using LangChain PromptTemplate, allowing modular and maintainable prompt design for multiple use cases like scoring, suggestions, and comparison.
+- AI responses are generated via Cohere’s `command-light` model, selected for its low-latency and fluent text generation.
+- The system mimics a simplified RAG architecture but without a vector database in the deployed version.
+- Responses are formatted clearly using bullet points and headings to enhance readability within the Streamlit interface.
+- The frontend is built with Streamlit, offering users a lightweight, responsive interface to upload resumes, define target roles, and receive real-time feedback.
 
 ---
 
@@ -16,8 +22,3 @@ AI-powered resume analysis app that helps you match your CV to your target job r
 ## 🔗 [**Live Demo – Click to Try the App**](https://resume-analyzer-with-ai.streamlit.app/)
 
 ---
-- Resume parsing is handled using LangChain’s PyPDFLoader for clean and structured text extraction.
-- Prompt construction is done using LangChain PromptTemplate, allowing modular and maintainable prompt design.
-- AI responses are generated via Cohere’s `command-light` model, selected for its low-latency and fluent text generation.
-- Initially planned vector-based retrieval with BERT embeddings and ChromaDB was disabled for cloud compatibility.
-- The system mimics a simplified RAG architecture but without a vector database in the deployed version.
