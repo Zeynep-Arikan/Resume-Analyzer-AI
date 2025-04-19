@@ -16,4 +16,6 @@ AI-powered resume analysis app that helps you match your CV to your target job r
 ## 🔗 [**Live Demo – Click to Try the App**](https://resume-analyzer-with-ai.streamlit.app/)
 
 ---
+## 🎬 Demo Video
 
+👉 [**Watch the demo video**](https://github.com/Zeynep-Arikan/Resume_Analyzer\assest\AI Resume Analyzer · Streamlit - Google Chrome 2025-04-19 13-55-17.mp4)
