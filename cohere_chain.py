@@ -5,7 +5,8 @@ from vector_store import retrieve_similar_cvs
 from langchain.prompts import PromptTemplate
 
 # Cohere istemcisi başlatılıyor
-co = cohere.Client(os.getenv("COHERE_API_KEY"))
+import streamlit as st
+co = cohere.Client(st.secrets["COHERE_API_KEY"])
 
 
 # ✅ CV analiz fonksiyonu (RAG destekli)
