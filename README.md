@@ -16,6 +16,8 @@ AI-powered resume analysis app that helps you match your CV to your target job r
 ## 🔗 [**Live Demo – Click to Try the App**](https://resume-analyzer-with-ai.streamlit.app/)
 
 ---
-## 🎬 Demo Video
-
-👉 [**Watch the demo video**](https://github.com/Zeynep-Arikan/Resume_Analyzer\assest\AI Resume Analyzer · Streamlit - Google Chrome 2025-04-19 13-55-17.mp4)
+- Resume parsing is handled using LangChain’s PyPDFLoader for clean and structured text extraction.
+- Prompt construction is done using LangChain PromptTemplate, allowing modular and maintainable prompt design.
+- AI responses are generated via Cohere’s `command-light` model, selected for its low-latency and fluent text generation.
+- Initially planned vector-based retrieval with BERT embeddings and ChromaDB was disabled for cloud compatibility.
+- The system mimics a simplified RAG architecture but without a vector database in the deployed version.
