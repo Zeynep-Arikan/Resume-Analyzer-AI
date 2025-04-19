@@ -26,7 +26,11 @@ Also provided are similar resumes from past applicants.
 {cv_text}
 
 Now analyze the resume above in terms of content, language, and suitability for the position of "{job_title}".  
-Provide strengths, weaknesses, and improvement suggestions in bullet points.
+Provide your response in **bullet point format** with the following sections clearly labeled:
+
+- **Strengths**  
+- **Weaknesses**  
+- **Improvement Suggestions**
 """
     )
 
