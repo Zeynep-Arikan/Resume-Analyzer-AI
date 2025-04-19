@@ -13,7 +13,7 @@ def add_cv_to_vector_store(doc_id: str, text: str):
     embedding = embed_text([text])[0]
     collection.add(documents=[text], embeddings=[embedding], ids=[doc_id])
 
-def retrieve_similar_cvs(query: str, top_k=3):
-    embedding = embed_text([query])[0]
-    results = collection.query(query_embeddings=[embedding], n_results=top_k)
-    return results['documents'][0]
+# def retrieve_similar_cvs(query: str, top_k=3):
+#     embedding = embed_text([query])[0]
+#     results = collection.query(query_embeddings=[embedding], n_results=top_k)
+#     return results['documents'][0]

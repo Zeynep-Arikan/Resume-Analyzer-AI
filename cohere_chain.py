@@ -11,18 +11,16 @@ co = cohere.Client(st.secrets["COHERE_API_KEY"])
 
 # ✅ CV analiz fonksiyonu (RAG destekli)
 def analyze_resume_rag(cv_text, job_title=None):
-    similar_examples = retrieve_similar_cvs(cv_text)
-    context = "\n\n".join(similar_examples)
+    # similar_examples = retrieve_similar_cvs(cv_text)
+    # context = "\n\n".join(similar_examples)
 
     # PromptTemplate tanımı
     template = PromptTemplate(
-        input_variables=["cv_text", "context", "job_title"],
+        input_variables=["cv_text", "job_title"],
         template="""
 You are a professional HR specialist. Below is a resume that needs to be analyzed.
 Also provided are similar resumes from past applicants.
 
---- SIMILAR RESUMES FOR CONTEXT ---
-{context}
 
 --- CURRENT RESUME ---
 {cv_text}
@@ -33,7 +31,7 @@ Provide strengths, weaknesses, and improvement suggestions in bullet points.
     )
 
     # Prompt'u oluştur
-    prompt_text = template.format(cv_text=cv_text, context=context, job_title=job_title)
+    prompt_text = template.format(cv_text=cv_text, job_title=job_title)
 
     # LLM çağrısı
     response = co.generate(
