@@ -1,6 +1,6 @@
 import streamlit as st
 from cohere_chain import analyze_resume_rag, compare_with_job_posting, generate_todo_list
-from vector_store import add_cv_to_vector_store
+# from vector_store import add_cv_to_vector_store
 from utils.pdf_reader import extract_text_from_pdf
 
 # Sayfa ayarları
@@ -26,7 +26,7 @@ if uploaded_file:
     if st.button("🔍 Analyze Resume"):
         with st.spinner("Analyzing with AI..."):
             # Vektör veritabanına ekleme
-            add_cv_to_vector_store(file_name, resume_text)
+            #add_cv_to_vector_store(file_name, resume_text)
 
             # İngilizce analiz çıktısı
             result = analyze_resume_rag(resume_text, job_title if job_title else None)
