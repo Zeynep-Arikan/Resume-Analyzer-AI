@@ -1,3 +1,4 @@
 cohere
 chromadb
 python-dotenv
+langchain-community
