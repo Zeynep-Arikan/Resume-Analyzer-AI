@@ -1,4 +1,9 @@
 cohere
 chromadb
 python-dotenv
+langchain
 langchain-community
+pypdf
+pdfminer.six
+streamlit
+
