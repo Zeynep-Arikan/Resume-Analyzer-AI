@@ -13,7 +13,7 @@ AI-powered resume analysis app that helps you match your CV to your target job r
 - 🧩 **Job Description Comparison** – Checks alignment between your resume and a real job ad
 
 ---
-[🔗 Live Demo)](https://resume-analyzer-with-ai.streamlit.app/)
+[🔗 ** Live Demo **)](https://resume-analyzer-with-ai.streamlit.app/) Live App 
 
 ---
 
